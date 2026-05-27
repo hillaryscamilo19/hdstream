@@ -7,6 +7,7 @@ import { SplitButtonModule } from 'primeng/splitbutton';
 import { MenuItem } from 'primeng/api';
 @Component({
   selector: 'app-navbar',
+  standalone: true,
   imports: [ ToolbarModule,Toolbar, ButtonModule, IconFieldModule, InputIconModule, SplitButtonModule ],
   templateUrl: './navbar.html',
   styleUrl: './navbar.css',

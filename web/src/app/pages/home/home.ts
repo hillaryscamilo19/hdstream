@@ -5,7 +5,7 @@ import { MovieCard } from "../../shared/components/movie-card/movie-card";
 
 @Component({
   selector: 'app-home',
-  imports: [MovieRow, HeroBanner, MovieCard],
+  imports: [MovieRow, HeroBanner],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
